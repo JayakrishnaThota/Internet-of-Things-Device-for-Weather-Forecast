@@ -1,0 +1,42 @@
+{
+  "ddl": {
+    "device": [
+      {
+        "name": "LED_rgb",
+        "pin": [
+          {
+            "id": "gnd_v",
+            "index": "0",
+            "type": "D",
+            "mode": "out",
+            "level": "high"
+          }
+        ]
+      },
+      {
+        "name": "power_btn",
+        "pin": [
+          {
+            "id": "pow_btn",
+            "index": "7",
+            "type": "D",
+            "mode": "in",
+            "level": "0"
+          }
+        ]
+      },
+      {
+        "name": "temp_sensor",
+        "pin": [
+          {
+            "id": "temp_sen",
+            "index": "5",
+            "type": "A",
+            "mode": "in",
+            "level": "0.899"
+          }
+        ]
+      }
+    ]
+  }
+}
